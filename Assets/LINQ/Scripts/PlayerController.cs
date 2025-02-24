@@ -1,3 +1,5 @@
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -20,16 +22,14 @@ public class PlayerController : MonoBehaviour
 
     void ShootAtAllEnemies()
     {
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
+        
+    }
 
-        foreach (Enemy enemy in enemies)
-        {
-            GameObject arrow = Instantiate(arrowPrefab, shootPoint.position, Quaternion.identity);
-            Arrow arrowScript = arrow.GetComponent<Arrow>();
-            if (arrowScript != null)
-            {
-                arrowScript.SetTarget(enemy.transform);
-            }
-        }
+   
+    private void SpawnArrow(Transform enemy)
+    {
+        GameObject arrow = Instantiate(arrowPrefab, shootPoint.position, Quaternion.identity);
+        Arrow arrowScript = arrow.GetComponent<Arrow>();
+        arrowScript.SetTarget(enemy.transform);
     }
 }

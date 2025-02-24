@@ -18,7 +18,7 @@ public class Arrow : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject); // Удаляем стрелу, если нет цели
+            Destroy(gameObject); 
         }
     }
 
@@ -35,9 +35,9 @@ public class Arrow : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Enemy>())
+        if (other.GetComponent<Entity>())
         {
-            other.GetComponent<Enemy>().TakeDamage(Damage);
+            other.GetComponent<Entity>().TakeDamage(Damage);
             Destroy(gameObject);
             
         }
