@@ -13,10 +13,15 @@ public class EnemySelector : MonoBehaviour
 
     public void PaintAll()
     {
+  
     }
 
 
-    public void PaintRed(SpriteRenderer spriteRenderer) =>  spriteRenderer.color = Color.red;
-    public void ResetColor(SpriteRenderer spriteRenderer) => spriteRenderer.color = Color.white; 
-      
+    public void PaintRed(SpriteRenderer spriteRenderer)
+    {
+        spriteRenderer.color = Color.red;
+    }
+
+    public void ResetColor(SpriteRenderer spriteRenderer) => spriteRenderer.color = Color.white;
+
 }
