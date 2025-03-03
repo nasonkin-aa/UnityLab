@@ -9,7 +9,7 @@ public class Clouds : MonoBehaviour
     void Start()
     {
         transform = GetComponent<Transform>();
-        var tween = transform.DOMoveX(transform.position.x + 10, 2).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.InOutSine);
+       
     }
 
     
