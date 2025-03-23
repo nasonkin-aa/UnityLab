@@ -358,6 +358,7 @@ MonoBehaviour:
   flashColor: {r: 1, g: 0, b: 0, a: 1}
   _tmpText: {fileID: 0}
   health: 100
+  Type: 0
 --- !u!61 &2581414842987467149
 BoxCollider2D:
   m_ObjectHideFlags: 0

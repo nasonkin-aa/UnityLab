@@ -373,6 +373,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2639534168982252147, guid: 00411dd515457d240a72fc68b7d89fa3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2436622870227597298, guid: 080e72b6181bcb1439de426092aa63f9, type: 3}
     - target: {fileID: 6982515886067166914, guid: 00411dd515457d240a72fc68b7d89fa3, type: 3}
       propertyPath: m_Name
       value: Card
@@ -416,6 +420,10 @@ PrefabInstance:
     - target: {fileID: 8028491638370691092, guid: 00411dd515457d240a72fc68b7d89fa3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812541544687404894, guid: 00411dd515457d240a72fc68b7d89fa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

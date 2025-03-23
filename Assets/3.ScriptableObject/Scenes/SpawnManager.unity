@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &355505008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 355505009}
+  m_Layer: 0
+  m_Name: SpawnPoit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &355505009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355505008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.21, y: -3.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,29 +388,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1aae724d4a21454bae90788c3f0de21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 710744031}
-  CountWaves: 2
-  CurrentWave:
-  - EnemyPrefabs: {fileID: 73239046344939003, guid: 174fb385123d8714da53f7bad8b81504, type: 3}
-    CountEnemys: 1
-    SpawnRate: 1
-    WaveDelay: 1
-  - EnemyPrefabs: {fileID: 73239046344939003, guid: 174fb385123d8714da53f7bad8b81504, type: 3}
-    CountEnemys: 1
-    SpawnRate: 1
-    WaveDelay: 1
-  - EnemyPrefabs: {fileID: 73239046344939003, guid: 174fb385123d8714da53f7bad8b81504, type: 3}
-    CountEnemys: 1
-    SpawnRate: 3
-    WaveDelay: 1
-  - EnemyPrefabs: {fileID: 73239046344939003, guid: 174fb385123d8714da53f7bad8b81504, type: 3}
-    CountEnemys: 1
-    SpawnRate: 1
-    WaveDelay: 0
-  - EnemyPrefabs: {fileID: 73239046344939003, guid: 174fb385123d8714da53f7bad8b81504, type: 3}
-    CountEnemys: 1
-    SpawnRate: 1
-    WaveDelay: 1
+  SpawnPosition: {fileID: 355505009}
+  waveConfig:
+  - {fileID: 11400000, guid: 090f6459347d1b04e960c6e620b1ad5d, type: 2}
+  - {fileID: 11400000, guid: 29d478a97a0337445a5a2dd2c21d2e33, type: 2}
+  - {fileID: 11400000, guid: 88922ec1b65e510409dacb0690d252e0, type: 2}
+  - {fileID: 11400000, guid: 65142057b0269414db524aa0784d9c19, type: 2}
 --- !u!4 &710744031
 Transform:
   m_ObjectHideFlags: 0
@@ -543,7 +557,7 @@ Transform:
   m_GameObject: {fileID: 1546765792}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7719754, y: -0.47215104, z: 5.32}
+  m_LocalPosition: {x: 0.01, y: -0.32, z: 5.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -558,3 +572,4 @@ SceneRoots:
   - {fileID: 1546765794}
   - {fileID: 866557139}
   - {fileID: 710744031}
+  - {fileID: 355505009}

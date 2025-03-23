@@ -251,8 +251,6 @@ GameObject:
   - component: {fileID: 995930921955047324}
   - component: {fileID: 1053396349248738269}
   - component: {fileID: 1975012897480194786}
-  - component: {fileID: 7131985865377967665}
-  - component: {fileID: -8928926006365764397}
   m_Layer: 0
   m_Name: Icon38
   m_TagString: Untagged
@@ -407,29 +405,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.6, y: 1.6}
   m_EdgeRadius: 0
---- !u!114 &7131985865377967665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8799294776675606226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f1bbcbead1f00e42b242f817f582e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {x: 0, y: 0, z: 0}
---- !u!114 &-8928926006365764397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8799294776675606226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f1bbcbead1f00e42b242f817f582e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {x: 0, y: 0, z: 0}

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6815046804753365963}
   - component: {fileID: 2148780080285337261}
   - component: {fileID: 7512654237282927513}
-  - component: {fileID: 1173762721863128304}
   - component: {fileID: 9042920915574367572}
   m_Layer: 0
   m_Name: Icon42
@@ -104,22 +103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleVariation: 0.05
   speed: 2
---- !u!114 &1173762721863128304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112878969590789226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba821ebaed392324fbb2efed26c1b91f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flashDuration: 0.1
-  flashColor: {r: 1, g: 0, b: 0, a: 1}
-  _tmpText: {fileID: 0}
-  health: 100
 --- !u!61 &9042920915574367572
 BoxCollider2D:
   m_ObjectHideFlags: 0
